@@ -1,0 +1,22 @@
+ #Pandas Python Execrises
+ 1.Pandas program to create and display a one-dimensional array-like object containing an array of data.
+  import pandas as pd
+  oda= pd.series([20, 40, 60, 80, 100])
+  print(oda)
+ 
+2.Write a Pandas program to convert a Panda module Series to Python list and it’s type.
+  import pandas as pd
+  oda= pd.series([20, 40, 60, 80, 100])
+  print(oda)
+  print(type(oda))
+  Print("convert Pandas into Pyhton list")
+  print(oda.tolist())
+3.Write a Pandas program to add two Pandas Series.
+
+ Sample Series: [20, 40, 60, 80, 100], [10, 30, 50, 70, 90]
+ import pandas as pd
+ od1=[20,40,60,80,100]
+ od2=[10,30,50,70,90]
+ od=od1+od2
+ print("Add two series")
+ print(od)
